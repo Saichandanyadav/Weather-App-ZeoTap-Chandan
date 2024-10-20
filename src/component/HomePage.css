@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f8ff;
+    margin-top: 30px;
+}
+
+.input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #e67e22;
+}
+
+.weather-info {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.city-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+.temperature, .humidity, .wind-speed, .condition {
+    font-size: 18px;
+    margin: 5px 0;
+    color: white;
+}
+
+.developer {
+    color: #007bff;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+}
+
+.App {
+    background-image: url('https://raw.githubusercontent.com/fireclint/weather-app-react/refs/heads/main/src/assets/sunset.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .input {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .weather-info {
+        padding: 10px;
+    }
+
+    .city-name {
+        font-size: 20px;
+    }
+
+    .temperature, .humidity, .wind-speed, .condition {
+        font-size: 16px;
+    }
+}

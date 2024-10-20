@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.App {
+  background-image: url('https://raw.githubusercontent.com/fireclint/weather-app-react/refs/heads/main/src/assets/sunset.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
