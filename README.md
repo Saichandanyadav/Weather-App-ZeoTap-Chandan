@@ -36,7 +36,7 @@ Welcome to the Weather App! This application allows users to search for weather 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Saichandanyadav/weather-app.git
+   git clone https://github.com/Saichandanyadav/Weather-App-ZeoTap-Chandan-app.git
    ```
 
 2. Navigate to the project directory:
